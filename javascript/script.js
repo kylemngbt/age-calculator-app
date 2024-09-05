@@ -41,4 +41,7 @@ function calculateAge() {
     m3 = 11;
     y3--;
   }
+  result.textContent = `You are ${y3} years, ${m3}months and ${d3} days old.`
 }
+
+
