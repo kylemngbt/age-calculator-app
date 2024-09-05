@@ -1,6 +1,7 @@
 let userInput = document.querySelector("#date");
 userInput.max = new Date().toISOString().split("T")[0];
 let result = document.querySelector("#result");
+const calcBtn = document.querySelector(".input-box button");
 
 function getDaysInMonth (year, month) {
   return new Date(year, month, 0).getDate();
@@ -20,7 +21,7 @@ function calculateAge() {
   let m2 = today.getMonth() + 1;
   let y2 = today.getFullYear();
 
-  let d3, m3, m3;
+  let d3, m3, y3;
 
   y3 = y2 - y1;
 
@@ -41,7 +42,7 @@ function calculateAge() {
     m3 = 11;
     y3--;
   }
-  result.textContent = `You are ${y3} years, ${m3}months and ${d3} days old.`
+  result.textContent = `You are ${y3} years, ${m3} months and ${d3} days old.`;
 }
 
 
