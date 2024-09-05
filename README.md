@@ -1,1 +1,2 @@
-# age-calculator-app
+# Age Calculator
+This web app have one data input box, where it will display the calendar to pick a date of birth. After selecting the date of birth click on the calculate button to display the exact age according to the current day.
