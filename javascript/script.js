@@ -45,4 +45,6 @@ function calculateAge() {
   result.textContent = `You are ${y3} years, ${m3} months and ${d3} days old.`;
 }
 
+calcBtn.addEventListener("click", calculateAge);
+
 
