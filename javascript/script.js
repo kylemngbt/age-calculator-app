@@ -42,7 +42,7 @@ function calculateAge() {
     m3 = 11;
     y3--;
   }
-  result.textContent = `You are ${y3} years, ${m3} months and ${d3} days old.`;
+  result.textContent = `You are <span>${y3}</span> years, <span>${m3}</span> months and <span>${d3}</span> days old.`;
 }
 
 calcBtn.addEventListener("click", calculateAge);
